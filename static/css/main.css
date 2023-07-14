@@ -1,0 +1,18 @@
+
+#main {
+    padding-top: 10px;
+}
+
+@media (min-width: 992px) {
+    #main {
+      padding-top: 6rem;
+    }
+}
+
+.hs-bg-primary {
+    background-color: #f35a5a;
+}
+
+.masthead .masthead-avatar {
+    width: 500px;
+  }
