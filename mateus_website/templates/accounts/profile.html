@@ -2,7 +2,7 @@
 
 {% block title %}Profile{% endblock %}
 
-{% block content %}
+{% block content %} 
 <div align="center">
     <br>
     <br>
@@ -28,7 +28,11 @@
                         <span>
                             {{ interest.name}}{% if not forloop.last %}, {% endif %}
                         </span>
+                    
                     {% endfor %}
+                    <p>
+                        <a href="/core/">List of Designers</a>
+                    </p>
                 </div>
             {% endif %}
         {% endwith %}
